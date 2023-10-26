@@ -1,0 +1,21 @@
+.left-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 33px;
+}
+
+.top-section {
+    flex: 0.15;
+    background-color: #000;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    padding: 15px;
+    border-bottom: 1px solid white; 
+}
+
+.bottom-section {
+    flex: 0.85;
+    background-color: #000;
+    border-radius: 33px;
+}
